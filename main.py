@@ -40,7 +40,7 @@ async def on_message(message):
             try:
                 await member.send(msg)
                 print(f"Sent message to {member}")
-                time.sleep(25)
+                time.sleep(60)
             except:
                 pass
 
@@ -48,7 +48,7 @@ async def on_message(message):
         await bot.process_commands(message)
 
 
-Token = 'MTA0NDA5NTE5MDgwNzM1MTM3Ng.GdTbqe.jO1VgRHUaGA9cFiKb8g9Rm_JqmAbaJg01LtQwU'
+Token = 'MTAyODkxNTI3MzIyODYzNjIyMw.GdcSES.6EfqI5c_67KjlvpB5dzP4HRb3rcmktLuo1IK58'
 bot.run(Token)
 
 # important run bot from shell not from run to work
